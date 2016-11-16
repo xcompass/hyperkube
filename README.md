@@ -1,6 +1,8 @@
 HyperKube with Ceph Common
 ==========================
 
+**NOTE**! As coreos hyperkube image now includes ceph-common package. However, you can still use this repo for installing custom version of ceph-common.
+
 The image is based on CoreOS HyperKube image with added Ceph common package. It tries to solve the problem the lack of rbd command in CoreOS image. It will help you to run CoreOS + Kubernetes + Ceph. This is a work around based on discussions here: https://github.com/kubernetes/kubernetes/issues/23924
 
 Running
