@@ -1,4 +1,4 @@
-FROM quay.io/coreos/hyperkube:v1.7.8_coreos.2
+FROM quay.io/coreos/hyperkube:v1.8.13_coreos.0
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update -y && \
     DEBIAN_FRONTEND=noninteractive apt-get install -q -yy curl && \
